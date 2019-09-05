@@ -20,15 +20,18 @@ Mocker mocker;
 void executeTests();
 void printArray(int *, size_t);
 
+
+
+
 int main(int argc, char* argv[]) {
     cout << "===========================================================" << endl;
     cout << "\tSorts Practice" << endl;
     cout << "===========================================================" << endl << endl;
-
     executeTests();
 
     return EXIT_SUCCESS;
 }
+
 
 void executeTests() {
     for (int i = 0; i < NUMBER_OF_TESTS; ++i) {
@@ -40,7 +43,7 @@ void executeTests() {
 }
 
 void printArray(int *array, size_t size) {
-    for (int i = 0; i < size; i++) {
+    for (size_t i = 0; i < size; i++) {
         cout << array[i] << " ";
     }
     cout << endl;

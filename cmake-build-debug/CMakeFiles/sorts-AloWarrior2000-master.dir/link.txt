@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/sorts-AloWarrior2000-master.dir/main.cpp.o CMakeFiles/sorts-AloWarrior2000-master.dir/tester.cpp.o CMakeFiles/sorts-AloWarrior2000-master.dir/mocker.cpp.o  -o sorts-AloWarrior2000-master 
